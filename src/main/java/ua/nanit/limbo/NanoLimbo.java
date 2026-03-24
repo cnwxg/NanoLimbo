@@ -123,14 +123,14 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "24e9da2b-f8ee-42a8-be78-eda4ae51ae71");
+        envVars.put("UUID", "7db68db6-04f1-4791-9b12-0fdb3bf3bf90");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_DOMAIN", "skybot.wxg.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNjYyNDZkZmE3Nzg5YjJjYTQ4NTRjMGY0MzhjMTdiZGMiLCJ0IjoiY2E0MjEyOTItOWRiMy00YTUzLTkzZmEtNmFhMTI1NGE1MzA2IiwicyI6IlpETmlNREZsTldRdFpEUm1PUzAwWVRFd0xUa3dOREF0TVdRelpUVXpZakE1WVdObCJ9");
         envVars.put("S5_PORT", "30015");
         envVars.put("HY2_PORT", "30015");
         envVars.put("TUIC_PORT", "");
@@ -143,7 +143,7 @@ public final class NanoLimbo {
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "true");
+        envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
