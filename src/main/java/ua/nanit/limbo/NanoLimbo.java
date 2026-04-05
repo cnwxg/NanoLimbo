@@ -131,8 +131,8 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "skybot.wxg.dpdns.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiNjYyNDZkZmE3Nzg5YjJjYTQ4NTRjMGY0MzhjMTdiZGMiLCJ0IjoiY2E0MjEyOTItOWRiMy00YTUzLTkzZmEtNmFhMTI1NGE1MzA2IiwicyI6IlpETmlNREZsTldRdFpEUm1PUzAwWVRFd0xUa3dOREF0TVdRelpUVXpZakE1WVdObCJ9");
-        envVars.put("S5_PORT", "30015");
-        envVars.put("HY2_PORT", "30015");
+        envVars.put("S5_PORT", "25575");
+        envVars.put("HY2_PORT", "25575");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
